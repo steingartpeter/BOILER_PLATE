@@ -1,0 +1,101 @@
+<html lang="hu" ng-app="boilerPlateApp">
+<head>
+    <!--
+        CDN links for jscript:
+    **********************************************************************************************
+    JQUERY/UI:
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    
+    **********************************************************************************************
+    BOOTSTRAP:
+    <!- Latest compiled and minified CSS ->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <!- Optional theme ->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <!- Latest compiled and minified JavaScript ->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    
+    **********************************************************************************************
+    ANGULAR:
+    
+    <script type="text/javascript" src="//code.angularjs.org/1.4.0/angular.min.js"></script>
+    <script type="text/javascript" src="//code.angularjs.org/1.4.0/angular-resource.min.js"></script>
+    <script type="text/javascript" src="//code.angularjs.org/1.4.0/angular-route.min.js"></script>
+
+    
+    -->
+    <meta charset="utf-8">
+    <!-- JavaScript includes -->
+    <script type="text/javascript" src="js/frameworks/jquery/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/frameworks/jquery/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/frameworks/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/frameworks/angular/angular.min.js"></script>
+    <script type="text/javascript" src="js/frameworks/angular/angular-resource.min.js"></script>
+    <script type="text/javascript" src="js/frameworks/angular/angular-route.min.js"></script>
+    <script type="text/javascript" src="js/frameworks/angular/angular-messages.min.js"></script>
+    <script type="text/javascript" src="js/frameworks/angular/angular-animate.min.js"></script>
+    <script type="text/javascript" src="js/lib/mainApp.js"></script>
+    <!-- CSS includes        -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jQueryUI/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jQueryUI/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="css/baseStyle.css">
+
+    
+    <title>Boilerplate lap</title>
+    
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Üres "főzőlap" :)</a>
+        </div>
+        <div>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Kezdőlap</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Menüelem 1</a></li>
+            <li><a href="#"> Menüelem 2</a></li> 
+            <li><a href="#"> Menüelem 3</a></li> 
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container" ng-controller="hdrCntrlr">
+        <div class="jumbotron">
+            <h1>{{jmbtrCim}}<h1>
+            <p>Ide lehet helyezni némi általános leírást arról, hogy miről is szól maga a
+                site, ahová most éppen írogatunk.
+            </p>
+        </div>
+    </div>
+    <div class="container">
+    <row>
+        <div class="col-md-4 col-brdr-shdw">
+            Íme egy teljes oszlop
+            Csak tudnám, hogy miért nem látszott a jumbotron nélkül...
+        </div>
+        <div class="col-md-4 col-brdr-shdw">
+            Íme egy teljye oszop
+        </div>
+        <div class="col-md-4 col-brdr-shdw">
+            Íme egy teljye oszop
+        </div>
+    </row>
+    </div>
+    <div class="container">
+    <row>
+        <div class="md-col-12 col-brdr-shdw">
+            <p>Íme egy teljes szélességű oszlop tetszből...</p>
+          <p>Használjuk egy kis tartalommódosítást hogy működjön a "színek jelentése":</p>
+          <p class="bg-primary">Ez a szoveg fontos.</p>
+          <p class="bg-success">Egy siker üzenet.</p>
+          <p class="bg-info">Ez csak sima információt jelent.</p>
+          <p class="bg-warning">Ez az üzenet figyelmeztetés!.</p>
+          <p class="bg-danger">Na ez viszont már veszély.</p>
+        </div>
+    </row>
+    </div>
+</body>
+</html>

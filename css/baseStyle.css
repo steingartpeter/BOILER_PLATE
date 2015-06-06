@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(#CDCDCD, #050505);
+}
+div.container{
+    margin-bottom: 10px;
+}
+div.row{
+    padding:10px;
+    margin-bottom: 12px;
+}
+div.col-brdr-shdw{
+    border:1px #EFEFEF solid;
+    border-radius:10px;
+    min-height: 300px;
+    background: linear-gradient(#B4B8B5,#81A38B);
+    box-shadow: 10px 10px 10px #050505;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+p.bg-danger{
+    color:crimson;
+}
+p.bg-danger:hover{
+    color:red;
+    font-weight: 700;
+}
+p.bg-success{
+    color:olive;
+}
+p.bg-success:hover{
+    color:olivedrab;
+    font-weight: 700;
+}
+p.bg-warning{
+    background-color: burlywood;
+    color:chocolate;
+}
+p.bg-warning:hover{
+    color:#944E03;
+    font-weight: 700;
+}
