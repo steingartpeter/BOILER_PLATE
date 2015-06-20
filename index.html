@@ -37,9 +37,14 @@
     <script type="text/javascript" src="js/frameworks/angular/angular-animate.min.js"></script>
     <script type="text/javascript" src="js/lib/mainApp.js"></script>
     <!-- CSS includes        -->
+    <!--  Az oldal layooutjához -> BOOTSTRAP -->
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <!--  Az ikonokhoz -> FONT-AWESOME -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!--  A képernyőelemekhez (datepicker, accoredion, stb...) JQUERYUI[/BOOTSTRAP] -->
     <link rel="stylesheet" href="css/jQueryUI/jquery-ui.min.css">
     <link rel="stylesheet" href="css/jQueryUI/jquery-ui.structure.min.css">
+    <!-- A továbbiakhoz, és ezek testreszabásához: saját css -->
     <link rel="stylesheet" href="css/baseStyle.css">
 
     
@@ -72,28 +77,36 @@
     </div>
     <div class="container">
     <row>
-        <div class="col-md-4 col-brdr-shdw">
+        <div class="col-md-4">
+            <div class="col-margin">
             Íme egy teljes oszlop
             Csak tudnám, hogy miért nem látszott a jumbotron nélkül...
+            </div>
         </div>
-        <div class="col-md-4 col-brdr-shdw">
+        <div class="col-md-4">
+            <div class="col-margin">
             Íme egy teljye oszop
+            </div>
         </div>
-        <div class="col-md-4 col-brdr-shdw">
+        <div class="col-md-4">
+            <div class="col-margin">
             Íme egy teljye oszop
+            </div>
         </div>
     </row>
     </div>
     <div class="container">
     <row>
-        <div class="md-col-12 col-brdr-shdw">
+        <div class="md-col-12">
+            <div class="col-margin">
             <p>Íme egy teljes szélességű oszlop tetszből...</p>
-          <p>Használjuk egy kis tartalommódosítást hogy működjön a "színek jelentése":</p>
-          <p class="bg-primary">Ez a szoveg fontos.</p>
-          <p class="bg-success">Egy siker üzenet.</p>
-          <p class="bg-info">Ez csak sima információt jelent.</p>
-          <p class="bg-warning">Ez az üzenet figyelmeztetés!.</p>
-          <p class="bg-danger">Na ez viszont már veszély.</p>
+                <p>Használjuk egy kis tartalommódosítást hogy működjön a "színek jelentése":</p>
+                <p class="bg-primary"><i class="fa fa-bolt"></i> - Ez a szöveg fontos.</p>
+                <p class="bg-success"><i class="fa fa-thumbs-o-up"></i> - Egy siker üzenet.</p>
+                <p class="bg-info"> <i class="fa fa-info"></i> - Ez csak sima információt jelent.</p>
+                <p class="bg-warning"><i class="fa fa-exclamation-triangle"></i> - Ez az üzenet figyelmeztetés!.</p>
+                <p class="bg-danger"><i class="fa fa-exclamation-circle"></i> - Na ez viszont már veszély.</p>
+            </div>
         </div>
     </row>
     </div>

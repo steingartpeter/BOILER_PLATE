@@ -8,14 +8,13 @@ div.row{
     padding:10px;
     margin-bottom: 12px;
 }
-div.col-brdr-shdw{
+div.col-margin{
     border:1px #EFEFEF solid;
     border-radius:10px;
     min-height: 300px;
-    background: linear-gradient(#B4B8B5,#81A38B);
+    background: linear-gradient(#AFBCE6,#F0F0F5);
     box-shadow: 10px 10px 10px #050505;
-    padding-left: 10px;
-    padding-right: 5px;
+    padding:15px;
 }
 p.bg-danger{
     color:crimson;
@@ -38,4 +37,18 @@ p.bg-warning{
 p.bg-warning:hover{
     color:#944E03;
     font-weight: 700;
+}
+p.bg-primary{
+    color:aquamarine;
+}
+p.bg-primary:hover{
+    color:dodgerblue;
+    background-color: aquamarine;
+}
+p.bg-primary{
+    color:aquamarine;
+}
+p.bg-primary:hover{
+    color:dodgerblue;
+    background-color: aquamarine;
 }
