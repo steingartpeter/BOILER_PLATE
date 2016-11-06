@@ -1,51 +1,51 @@
 <html lang="hu" ng-app="boilerPlateApp">
 <head>
     <!--
-        CDN links for jscript:
+
+    
+    CDN links for jscript:
     **********************************************************************************************
     JQUERY/UI:
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-    
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+    crossorigin="anonymous"></script>
+	
     **********************************************************************************************
     BOOTSTRAP:
     <!- Latest compiled and minified CSS ->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!- Optional theme ->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!- Latest compiled and minified JavaScript ->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
     **********************************************************************************************
     ANGULAR:
     
-    <script type="text/javascript" src="//code.angularjs.org/1.4.0/angular.min.js"></script>
-    <script type="text/javascript" src="//code.angularjs.org/1.4.0/angular-resource.min.js"></script>
-    <script type="text/javascript" src="//code.angularjs.org/1.4.0/angular-route.min.js"></script>
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-resource.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.min.js"></script>
 
     
     -->
     <meta charset="utf-8">
     <!-- JavaScript includes -->
-    <script type="text/javascript" src="js/frameworks/jquery/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="js/frameworks/jquery/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="js/frameworks/bootstrap/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/frameworks/angular/angular.min.js"></script>
-    <script type="text/javascript" src="js/frameworks/angular/angular-resource.min.js"></script>
-    <script type="text/javascript" src="js/frameworks/angular/angular-route.min.js"></script>
-    <script type="text/javascript" src="js/frameworks/angular/angular-messages.min.js"></script>
-    <script type="text/javascript" src="js/frameworks/angular/angular-animate.min.js"></script>
-    <script type="text/javascript" src="js/lib/mainApp.js"></script>
+    <script type="text/javascript" src="/BOILER_PLATE/js/frameworks/jquery/jQuery311.min.js"></script>
+    <script type="text/javascript" src="/BOILER_PLATE/js/frameworks/jqueryui/jqueryUi1121/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/BOILER_PLATE/js/frameworks/bootstrap/bootstrap337/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/BOILER_PLATE/js/lib/mainApp.js"></script>
     <!-- CSS includes        -->
     <!--  Az oldal layooutjához -> BOOTSTRAP -->
-    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
-    <!--  Az ikonokhoz -> FONT-AWESOME -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/BOILER_PLATE/js/frameworks/bootstrap/bootstrap337/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/BOILER_PLATE/js/frameworks/bootstrap/bootstrap337/css/bootstrap-theme.min.css">
     <!--  A képernyőelemekhez (datepicker, accoredion, stb...) JQUERYUI[/BOOTSTRAP] -->
-    <link rel="stylesheet" href="css/jQueryUI/jquery-ui.min.css">
-    <link rel="stylesheet" href="css/jQueryUI/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="/BOILER_PLATE/js/frameworks/jqueryui/jqueryUi1121/jquery-ui.min.css">
+    <link rel="stylesheet" href="/BOILER_PLATE/js/frameworks/jqueryui/jqueryUi1121/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="/BOILER_PLATE/js/frameworks/jqueryui/jqueryUi1121/jquery-ui.theme.min.css">
     <!-- A továbbiakhoz, és ezek testreszabásához: saját css -->
-    <link rel="stylesheet" href="css/baseStyle.css">
+    <link rel="stylesheet" href="/BOILER_PLATE/css/baseStyle.css">
 
     
     <title>Boilerplate lap</title>
@@ -58,18 +58,24 @@
           <a class="navbar-brand" href="#">Üres "főzőlap" :)</a>
         </div>
         <div>
-          <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav ">
             <li class="active"><a href="#">Kezdőlap</a></li>
             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Menüelem 1</a></li>
             <li><a href="#"> Menüelem 2</a></li> 
             <li><a href="#"> Menüelem 3</a></li> 
           </ul>
         </div>
+        <div>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Belépés</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-book"></span> Regisztrálás</a></li> 
+          </ul>
+        </div>
       </div>
     </nav>
-    <div class="container" ng-controller="hdrCntrlr">
+    <div class="container">
         <div class="jumbotron">
-            <h1>{{jmbtrCim}}<h1>
+            <h1>ALAP SITE<h1>
             <p>Ide lehet helyezni némi általános leírást arról, hogy miről is szól maga a
                 site, ahová most éppen írogatunk.
             </p>
@@ -85,12 +91,12 @@
         </div>
         <div class="col-md-4">
             <div class="col-margin">
-            Íme egy teljye oszop
+            Íme egy teljes oszlop
             </div>
         </div>
         <div class="col-md-4">
             <div class="col-margin">
-            Íme egy teljye oszop
+            Íme egy teljes oszlop
             </div>
         </div>
     </row>
@@ -101,11 +107,11 @@
             <div class="col-margin">
             <p>Íme egy teljes szélességű oszlop tetszből...</p>
                 <p>Használjuk egy kis tartalommódosítást hogy működjön a "színek jelentése":</p>
-                <p class="bg-primary"><i class="fa fa-bolt"></i> - Ez a szöveg fontos.</p>
-                <p class="bg-success"><i class="fa fa-thumbs-o-up"></i> - Egy siker üzenet.</p>
-                <p class="bg-info"> <i class="fa fa-info"></i> - Ez csak sima információt jelent.</p>
-                <p class="bg-warning"><i class="fa fa-exclamation-triangle"></i> - Ez az üzenet figyelmeztetés!.</p>
-                <p class="bg-danger"><i class="fa fa-exclamation-circle"></i> - Na ez viszont már veszély.</p>
+                <p class="bg-primary"><span class="glyphicon glyphicon-flag"></span> - Ez a szöveg fontos.</p>
+                <p class="bg-success"><span class="glyphicon glyphicon-ok-sign"> - Egy siker üzenet.</p>
+                <p class="bg-info"><span class="glyphicon glyphicon-info-sign"> - Ez csak sima információt jelent.</p>
+                <p class="bg-warning"><span class="glyphicon glyphicon-question-sign"> - Ez az üzenet figyelmeztetés!.</p>
+                <p class="bg-danger"><span class="glyphicon glyphicon-remove-sign"> - Na ez viszont már veszély.</p>
             </div>
         </div>
     </row>
