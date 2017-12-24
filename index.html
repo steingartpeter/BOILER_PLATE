@@ -1,4 +1,5 @@
-<html lang="hu" ng-app="boilerPlateApp">
+<!DOCTYPE html>
+<html lang="hu">
 <head>
     <!--
 
@@ -21,12 +22,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
     **********************************************************************************************
-    ANGULAR:
-    
-    
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-resource.min.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.min.js"></script>
 
     
     -->
@@ -75,7 +70,7 @@
     </nav>
     <div class="container">
         <div class="jumbotron">
-            <h1>ALAP SITE<h1>
+            <h1>ALAP SITE</h1>
             <p>Ide lehet helyezni némi általános leírást arról, hogy miről is szól maga a
                 site, ahová most éppen írogatunk.
             </p>
@@ -103,7 +98,7 @@
     </div>
     <div class="container">
     <row>
-        <div class="md-col-12">
+        <div class="col-md-12">
             <div class="col-margin">
             <p>Íme egy teljes szélességű oszlop tetszből...</p>
                 <p>Használjuk egy kis tartalommódosítást hogy működjön a "színek jelentése":</p>
@@ -116,5 +111,22 @@
         </div>
     </row>
     </div>
+    
+    
+    <!-- 
+	//<nn>
+	//Ez a két div eleinte láthatatlan, csak bizonyos események 
+	//(javascript fv hívások hívják őket elő.
+	//<nn>
+	-->
+	<div id="modalWndw" class="modal-base" title="Modális ablak OK?">
+  		<p>
+  			<span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span>
+  			Modális ablak üzenethez.
+  		</p>
+  	</div>
+  	<div id="bsc-toolTip">
+  		
+  	</div>
 </body>
 </html>
